@@ -25,3 +25,121 @@ body {
   background: #77c4d3;
   margin: 5%;
 }
+
+/************************************
+Header Section
+************************************/
+
+header,
+.summary {
+  padding: 4%;
+}
+
+header,
+.summary {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.intro header h1 {
+  font-weight: 300;
+  background-color: #ea2e49;
+  width: min-content;
+  white-space: nowrap;
+  padding: 0.6em 1em;
+  margin: 0px;
+  font-size: 1.3em;
+}
+
+.intro header h2 {
+  font-weight: 900;
+  text-transform: none;
+  font-size: 4.3em;
+  margin: 0.3em 0 0;
+}
+
+.summary {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+.summary p {
+  margin: 0;
+  padding: 1.3em 0;
+  font-weight: 500;
+}
+.summary p:first-child {
+  border-bottom: 1px solid #ea2e49;
+}
+
+.intro a,
+.sidebar a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-bottom 0.4s ease;
+}
+
+.intro a:hover,
+.sidebar a:hover {
+  border-bottom: 1px solid #ea2e49;
+}
+
+.intro a:link,
+.intro a:visited {
+  color: #fff;
+}
+
+/************************************
+Sidebar Section
+************************************/
+
+.sidebar {
+  background-color: #eaf298;
+  padding: 4% 4% 10%;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.sidebar a:link,
+.sidebar a:visited {
+  color: #000;
+}
+
+/************************************
+Design Selection Section
+************************************/
+
+.select {
+  margin: 0.7em 0 0;
+}
+
+.select,
+.archives,
+.resources {
+  font-size: 1.7em;
+  font-weight: 300;
+}
+
+.design-selection ul > li,
+.design-archives ul > li,
+.zen-resources ul > li {
+  font-size: 0.9em;
+  margin: 0 0 0.9em;
+}
+
+/************************************
+Design Archives Section
+************************************/
+
+.archives,
+.resources {
+  margin: 1.7em 0 0;
+}
+
+/************************************
+Zen Resources Section
+************************************/
