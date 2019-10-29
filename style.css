@@ -1,0 +1,27 @@
+/*********************************
+Normalize CSS and general and 
+common settings
+*********************************/
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: #daede2;
+}
+
+.page-wrapper {
+  background: #77c4d3;
+  margin: 5%;
+}
