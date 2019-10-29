@@ -25,3 +25,120 @@ body {
   background: #77c4d3;
   margin: 5%;
 }
+
+/*********************************
+Preamble section
+*********************************/
+.preamble {
+  width: 100%;
+  position: relative;
+  left: -5.5%;
+  padding: 1em 1.2em 1em 3em;
+  background: #ffffffe5
+}
+
+.preamble h3 {
+  margin-bottom: 0.7em;
+  font-size: 1.5em;
+  font-weight: normal;
+  transform: scaleY(1.3);
+}
+
+.preamble p {
+  font-size: 0.8em;
+  line-height: 1.5em;
+  letter-spacing: 0.1px;
+}
+
+/*********************************
+Preamble section
+*********************************/
+
+.main {
+  padding: 4em 10% 0;
+}
+
+.main h3 {
+  margin-bottom: 0.7em;
+  font-size: 1.5em;
+  font-weight: normal;
+  transform: scaleY(1.3);
+}
+
+.main p,
+.preamble p {
+  font-size: 0.8em;
+  line-height: 1.5em;
+  letter-spacing: 0.1px;
+}
+
+.explanation,
+.participation {
+  color: #fff;
+}
+
+.participation {
+  width: 110%;
+  position: relative;
+  left: -5%;
+  padding: 5% 5%;
+  background: rgba(234, 46, 73, 0.9);
+}
+
+.benefits,
+.requirements {
+  width: 110%;
+  position: relative;
+  left: -5%;
+  padding: 5% 5%;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.benefits {
+  margin-top: 2.5em;
+}
+
+.requirements p:last-child::before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  margin-bottom: 0.7em;
+  border-top: 0.8px solid rgba(234, 46, 73, 0.9);
+}
+
+.requirements p:last-child {
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.main a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  color: #000;
+  text-decoration: none;
+}
+
+footer {
+  width: 55%;
+  height: 5em;
+  position: relative;
+  left: -5%;
+  padding: 1.4em 1.5em 1.4em 1.4em;
+  background: rgba(246, 247, 146, 0.9);
+  font-size: 0.8em;
+  line-height: 1.4em;
+}
+
+footer a{
+  margin-right: 0.4em;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 550px) {}
