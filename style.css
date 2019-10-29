@@ -25,3 +25,67 @@ body {
   background: #77c4d3;
   margin: 5%;
 }
+
+/************************************
+Header Section
+************************************/
+
+header,
+.summary {
+  padding: 4%;
+}
+
+header,
+.summary {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.intro header h1 {
+  font-weight: 300;
+  background-color: #ea2e49;
+  width: min-content;
+  white-space: nowrap;
+  padding: 0.6em 1em;
+  margin: 0px;
+  font-size: 1.3em;
+}
+
+.intro header h2 {
+  font-weight: 900;
+  text-transform: none;
+  font-size: 4.3em;
+  margin: 0.3em 0 0;
+}
+
+.summary {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+.summary p {
+  margin: 0;
+  padding: 1.3em 0;
+  font-weight: 500;
+}
+.summary p:first-child {
+  border-bottom: 1px solid #ea2e49;
+}
+
+.intro a,
+.sidebar a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-bottom 0.4s ease;
+}
+
+.intro a:hover,
+.sidebar a:hover {
+  border-bottom: 1px solid #ea2e49;
+}
+
+.intro a:link,
+.intro a:visited {
+  color: #fff;
+}
+
