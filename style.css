@@ -244,6 +244,24 @@ Sidebar Section
   color: #000;
 }
 
+@media (min-width: 550px) {
+  .sidebar {
+    position: absolute;
+    width: 30%;
+    top: 6em;
+    right: 4.4%;
+    padding-left: 4.4%;
+    background-color: rgba(246,247,146,0.9);
+    z-index: 2;
+  }
+}
+
+@media (min-width: 900px) {
+  .sidebar {
+    font-size: 1.2em;
+  }
+}
+
 /************************************
 Design Selection Section
 ************************************/
