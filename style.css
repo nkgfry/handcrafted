@@ -26,7 +26,6 @@ body {
   margin: 5%;
 }
 
-<<<<<<< HEAD
 /************************************
 Header Section
 ************************************/
@@ -90,61 +89,6 @@ header,
   color: #fff;
 }
 
-/************************************
-Sidebar Section
-************************************/
-
-.sidebar {
-  background-color: #eaf298;
-  padding: 4% 4% 10%;
-}
-
-.sidebar ul {
-  list-style-type: none;
-  padding: 0;
-  color: rgba(0, 0, 0, 0.4);
-}
-
-.sidebar a:link,
-.sidebar a:visited {
-  color: #000;
-}
-
-/************************************
-Design Selection Section
-************************************/
-
-.select {
-  margin: 0.7em 0 0;
-}
-
-.select,
-.archives,
-.resources {
-  font-size: 1.7em;
-  font-weight: 300;
-}
-
-.design-selection ul > li,
-.design-archives ul > li,
-.zen-resources ul > li {
-  font-size: 0.9em;
-  margin: 0 0 0.9em;
-}
-
-/************************************
-Design Archives Section
-************************************/
-
-.archives,
-.resources {
-  margin: 1.7em 0 0;
-}
-
-/************************************
-Zen Resources Section
-************************************/
-=======
 /*********************************
 Preamble section
 *********************************/
@@ -253,6 +197,62 @@ footer a{
   margin-right: 0.4em;
 }
 
+/************************************
+Sidebar Section
+************************************/
+
+.sidebar {
+  background-color: #eaf298;
+  padding: 4% 4% 10%;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.sidebar a:link,
+.sidebar a:visited {
+  color: #000;
+}
+
+/************************************
+Design Selection Section
+************************************/
+
+.select {
+  margin: 0.7em 0 0;
+}
+
+.select,
+.archives,
+.resources {
+  font-size: 1.7em;
+  font-weight: 300;
+}
+
+.design-selection ul > li,
+.design-archives ul > li,
+.zen-resources ul > li {
+  font-size: 0.9em;
+  margin: 0 0 0.9em;
+}
+
+/************************************
+Design Archives Section
+************************************/
+
+.archives,
+.resources {
+  margin: 1.7em 0 0;
+}
+
+/************************************
+Zen Resources Section
+************************************/
+
+
 
 
 
@@ -261,4 +261,3 @@ footer a{
 
 
 @media (min-width: 550px) {}
->>>>>>> ngoc
